@@ -1,0 +1,71 @@
+<?php
+
+// WELCOME TO THE SETUP FILE. THIS IS WHERE YOU CAN EDIT AND CHANGE ALL THE VARIABLES FOR YOUR TEMPLATE.
+// PLEASE NOTE THAT EACH LINE CONTAINS A NEW VARIABLE.
+// ANY TEXT WITH "//" IN FRONT OF IT IS NOT CODE BUT JUST A COMMENT TO HELP YOU ALONG.
+// ANY TEXT WITHOUT "//" IN FRONT OF IT IS THE CODE YOU MUST EDIT.
+
+//-------------------------
+// START BELOW
+// SECTION 1: BASIC VARIABLES
+//-------------------------
+
+
+
+// VARIABLE: "HOST" - FILL THIS IN WITH YOUR DOMAIN NAME INCLUDING HTTPS AND WWW AND DON'T FORGET THE FORWARD SLASH AT THE END, e.g. HTTPS://WWW.YOURDOMAIN.COM/
+$host = "https://www.bmiestimate.com/";
+
+// VARIABLE: "SIMPLE URL" - FILL THIS IN WITH YOUR DOMAIN NAME WITHOUT HTTPS OR WWW AND DON'T ADD A FORWARD SLASH AT THE END, e.g. YourDomain.com
+$simpleurl = "bmiestimate.com";
+
+// VARIABLE: "WEBSITENAME" - FILL THIS IN WITH YOUR WEBSITE NAME AS YOU WOULD LIKE TO HAVE IT APPEAR ON ORGANIC GOOGLE SEARCH RESULTS, e.g. "Age Calculator - Calculate Age from Date of Birth"
+$websitename = "BMI Calculator- Calculate Your Healthy Range";
+
+// VARIABLE: "WEBSITENAME_SHORT" - FILL THIS IN WITH YOUR WEBSITE SHORTNAME, e.g. SIMPLY "Age Calculator", AS YOU WOULD LIKE TO HAVE IT APPEAR ON YOUR WEBSITE'S HOMEPAGE
+$websitename_short = "BMI Calculator";
+
+// VARIABLE: "DESCRIPTION" - FILL THIS IN WITH YOUR WEBSITE'S META DESCRIPTION AS YOU WOULD LIKE IT TO APPEAR ON ORGANIC GOOGLE SEARCH RESULTS e.g. "Calculate your exact age from date of birth with this free online age calculator. Find out how old you are in years, months, weeks and days."
+$description = "Effortlessly calculate your Body Mass Index with our intuitive BMI tool. Perfect for health enthusiasts and fitness beginners alike. Start your journey!";
+
+// VARIABLE: "KEYWORDS" - FILL THIS IN WITH JUST A COUPLE OF THE MOST IMPORTANT KEYWORDS FOR YOUR TOPIC e.g. "age calculator, calculate age"
+$keywords = "BMI Calculator, Calculate BMI";
+
+
+
+//-------------------------
+// SECTION 2: GOOGLE ANALYTICS SETUP
+// YOU SHOULD ONLY EDIT THIS PART AFTER YOU HAVE CREATED A GOOGLE ANALYTICS ACCOUNT AND PROPERTY FOR THIS WEBSITE
+//-------------------------
+
+// ENABLE GOOGLE ANALYTICS - CHANGE THIS TO "yes" TO ENABLE GOOGLE ANALYTICS
+$googleanalytics_enabled = "no";
+
+// VARIABLE: "GOOGLE ANALYTICS" - YOU WILL RECEIVE THIS GTAG ID ONCE YOU CREATE YOUR PROPERTY/WEBSITE IN GOOGLE ANALYTICS
+$gtagid = "G-0123456789";
+
+
+
+//-------------------------
+// SECTION 3: GOOGLE ADSENSE ADVERTS SETUP
+// YOU SHOULD ONLY EDIT THIS PART AFTER YOU HAVE RECEIVED GOOGLE ADSENSE APPROVAL FOR THIS WEBSITE
+//-------------------------
+
+// ENABLE GOOGLE ADSENSE ADS - CHANGE THIS TO "yes" TO ENABLE ADS
+$googleadsense_enabled = "no";
+
+// GOOGLE ADSENSE CLIENT ID - YOU WILL RECEIVE THIS FROM ADSENSE ONCE YOU CREATE YOUR FIRST AD, IT WILL START WITH CA-PUB- AND CONTINUE WITH YOUR CLIENT ID NUMBER
+$adsenseclientid = "ca-pub-xxxxxxxxxxxxxxxx";
+
+// ENABLE THE ADS - CHANGE THESE TO "no" TO DISABLE ANY OF THE ADS
+$fixedtopad_enabled = "yes";
+$topad_enabled = "yes";
+$bottomad_enabled = "yes";
+$fixedbottomad_enabled = "yes";
+
+// VARIABLES: "4 AD SLOT IDS" - YOU WILL RECEIVE THESE FROM ADSENSE ONCE YOU CREATE YOUR AD UNITS, THEY WILL ALL BE A 10 DIGIT NUMBER THAT IDENTIFIES EACH AD.
+$fixedtopad_slot_id = "0123456789"; // SLOT ID FOR THE TOP FIXED AD
+$topad_slot_id = "0123456789"; // SLOT ID FOR THE TOP AD
+$bottomad_slot_id = "0123456789"; // SLOT ID FOR THE BOTTOM AD
+$fixedbottomad_slot_id = "0123456789"; // SLOT ID FOR THE BOTTOM FIXED AD
+
+?>

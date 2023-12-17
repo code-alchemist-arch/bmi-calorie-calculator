@@ -1,0 +1,128 @@
+.bmi-section {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.bmi-section .nav-item a {
+    color: #222 !important; 
+    text-decoration: none !important;
+}
+
+#bmiForm {
+    margin: auto;
+    min-width: 320px;
+    max-width: 650px;
+}
+
+.activity-level {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.bmi-indicator {
+    position: relative;
+    padding-top: 90px;
+}
+
+.bmi-result_indicator {
+    position: absolute;
+    top: 0;
+}
+
+.bmi-result {
+    position: absolute;
+    top: 0;
+    left: -65px;
+    background-color: rgb(139, 195, 74);
+    width: 130px;
+    color: white;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.bmi-result .value {
+    font-weight: bold;
+}
+
+.bmi-result::after {
+    bottom: -8px;
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #8bc34a;
+    left: 55px;
+}
+
+.bmi-categories {
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bmi-category_range {
+    position: relative;
+    width: 20%;
+    background-color: #ffc107;
+    height: 8px;
+}   
+
+.bmi-category_range .value {
+    margin-top: -60px;
+}
+
+.bmi-category_range .weight {
+    position: absolute;
+    bottom: -60px;
+    right: 0;
+    text-align: center;
+    transform: translate(50%, 0);
+}
+
+.bmi-category_range:nth-child(2) {
+    background-color: #8bc34a
+}
+
+.bmi-category_range:nth-child(3) {
+    background-color: #ffa726
+}
+
+.bmi-category_range:nth-child(4) {
+    background-color: #ef6c00
+}
+
+.bmi-category_range:nth-child(5) {
+    background-color: #c62828
+}
+
+.bmi-result_summary {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 72px;
+    padding: 18px 12px;
+    border-radius: 12px;
+    background: #e1e1e1;
+}
+
+.calorie-intake {
+    margin: 24px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.calorie-intake > div {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #e1e1e1;
+    border-radius: 12px;
+}
+
+.calorie-intake > div .title {
+    font-weight: bold;
+}
